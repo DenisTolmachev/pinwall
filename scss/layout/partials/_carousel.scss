@@ -1,0 +1,42 @@
+.carousel {
+  padding: 130px 0 30px 0;
+  width: 70%;
+  .media_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .icons {
+      height: 103px;
+      width: 103px;
+      display: flex;
+      align-items: center;
+      margin: 0 20px 0 20px;
+      cursor: pointer;
+    }
+  }
+  p {
+    color: #fff; /* text color */
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    margin: 40px 0 40px 0;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    color: #fff; /* text color */
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 22px;
+    border: 2px solid #fff; /* stroke */
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: rgba(0,0,0,0);
+  }
+}

@@ -1,0 +1,101 @@
+.mapField {
+  overflow: hidden;
+  .container {
+    position: relative;
+    .contacts {
+      position: absolute;
+      height: 418px;
+      width: 464px;
+      bottom: -325px;
+      right: 65px;
+      padding-left: 36px;
+      padding-right: 46px;
+      padding-top: 23px;
+      border-top: 9px solid #37e2b0;;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #fff; /* layer fill content */
+      -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .17); /* outer glow */
+      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .17); /* outer glow */
+      box-shadow: 0 0 5px rgba(0, 0, 0, .17); /* outer glow */
+      transition: 1s;
+      .toggle-cont {
+        display: inline-block;
+        float: right;
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        text-decoration: none;
+        background-image: url("/img/up_arrow.png");
+      }
+      .toggle-cont.active {
+        background-image: url("/img/down_arrow.png");
+      }
+      .sendMenuTitle {
+        color: #797979; /* text color */
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 30px;
+        margin-bottom: 20px;
+        float: left;
+      }
+      .inputLi {
+        padding: 0 0 15px 0;
+      }
+      .inputLi input {
+        width: 100%;
+        outline: none;
+        padding: 7px;
+        opacity: .5; /* layer alpha */
+        color: #000000; /* text color */
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 14px;
+        border: 1px solid #d8d8d8; /* stroke */
+        background-color: #fff; /* layer fill content */
+      }
+      #message {
+        height: 95px;
+        width: 100%;
+        outline: none;
+        padding: 6px;
+        opacity: .5; /* layer alpha */
+        color: #4c505d; /* text color */
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 14px;
+        border: 1px solid #d8d8d8; /* stroke */
+        background-color: #fff; /* layer fill content */
+      }
+      .sendBtn {
+        float: right;
+        margin-top: 12px;
+        color: #fff; /* text color */
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 18px;
+        padding: 6px 45px 6px 45px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px; /* border radius */
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box; /* prevents bg color from leaking outside the border */
+        background-color: #1dc795; /* layer fill content */
+        &:hover {
+          -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+          -moz-box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+          box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+        }
+        &:active {
+          -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.75);
+          -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,0.75);
+          box-shadow: 0 0 3px 0 rgba(0,0,0,0.75);
+        }
+      }
+    }
+    .contacts.active {
+      bottom: 0;
+    }
+  }
+}

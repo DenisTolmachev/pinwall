@@ -1,0 +1,15 @@
+.top_menu {
+  ul {
+    margin-top: 10px;
+    li {
+      padding: 7px 0 7px 40px;
+      cursor: pointer;
+      color: #7e7e7e; /* text color */
+      font-family: "Open Sans Regular", sans-serif;
+      font-size: 16px;
+      &:hover {
+        background-color: #e5e5e5;
+      }
+    }
+  }
+}

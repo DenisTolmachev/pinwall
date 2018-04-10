@@ -1,0 +1,24 @@
+// Add @font-face or @import rules here
+
+$fonts: '/fonts';
+
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot');
+  src: url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.woff') format('woff'),
+  url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype');
+  //font-style: normal;
+  //font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url('#{$fonts}/Open_Sans/OpenSans-Light/OpenSans-Light.eot');
+  src: url('#{$fonts}/Open_Sans/OpenSans-Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts}/Open_Sans/OpenSans-Light/OpenSans-Light.woff') format('woff'),
+  url('#{$fonts}/Open_Sans/OpenSans-Light/OpenSans-Light.ttf') format('truetype');
+  //font-style: normal;
+  //font-weight: normal;
+}

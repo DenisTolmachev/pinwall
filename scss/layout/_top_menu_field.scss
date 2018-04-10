@@ -1,0 +1,23 @@
+.header_flex {
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .top_menu_field {
+    background-color: #ffffff;
+    height: 100%;
+    width: 226px;
+    -webkit-box-shadow: 3px 4px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 20px -2px rgba(0,0,0,0.75);
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-left: 113px solid transparent;
+      border-right: 113px solid transparent;
+      border-top: 45px solid white;
+    }
+  }
+}

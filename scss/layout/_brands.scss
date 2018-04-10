@@ -1,0 +1,19 @@
+.brands {
+  padding: 20px 0 20px 0;
+  background-color: #f4f4f4;
+  .brandsLogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      margin: 0 5px 0 5px;
+
+    }
+    .logMarginDown {
+       margin-top: 5px;
+       margin-bottom: 5px;
+     }
+  }
+}
